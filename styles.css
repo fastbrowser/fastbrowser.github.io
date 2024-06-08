@@ -1,0 +1,38 @@
+html{
+    background-color: #212121;
+    color: #cfcfcf;
+    font-family:monospace;
+}
+#menubar {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+#menubar a {
+    color: #cfcfcf;
+    text-decoration: none;
+    padding-left: 30px;
+}
+#logo{
+    padding-left: 5px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: x-large;
+}
+a{
+    color:deepskyblue;
+}
+li{
+    text-align: center;
+    font-size: x-large;
+}
