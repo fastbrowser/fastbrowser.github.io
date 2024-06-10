@@ -9,7 +9,6 @@ html{
     display: flex;
     align-items: center;
     font-size: xx-large;
-    border-radius: 10px;
 }
 #menubar a {
     color: #cfcfcf;
