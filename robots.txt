@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /robots.txT
+Disallow: /robots.txt
 Disallow: /sitemap.xml
 Disallow: /google13d0e7a449a2caa5.html
 Sitemap: https://fastbrowser.github.io/sitemap.xml
