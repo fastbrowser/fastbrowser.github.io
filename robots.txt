@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /robots.txt
+Disallow: /license.html
+Disallow: /sitemap.xml
+Disallow: /google13d0e7a449a2caa5.html
+Sitemap: https://fastbrowser.github.io/sitemap.xml
