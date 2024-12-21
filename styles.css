@@ -4,6 +4,7 @@ html{
     font-family:monospace;
 }
 #menubar {
+    display: flex;
     height: 50px;
     background-color: black;
     display: flex;
