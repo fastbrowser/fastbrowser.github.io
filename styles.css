@@ -76,4 +76,27 @@ li {
         padding-left: calc(30px + 5px + 50px); /* Match the x-position of the first link */
         padding-bottom: 13px;
     }
+    #abt {
+        width: 50%;
+        text-align: center;
+        font-size: x-large;
+        padding-left: 12.5%;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 480px) {
+    #menubar {
+        flex-wrap: wrap; /* Ensure wrapping happens */
+    }
+    #menubar a:nth-last-child(2), #menubar a:last-child {
+        flex-basis: 100%; /* Make the last link take the full row */
+        text-align: left; /* Align text to the left */
+        padding-left: calc(30px + 5px + 50px); /* Match the x-position of the first link */
+        padding-bottom: 13px;
+    }
+    #abt {
+        width: 50%;
+        text-align: center;
+        font-size: x-large;
+        padding-left: 2%;
+    }
 }
