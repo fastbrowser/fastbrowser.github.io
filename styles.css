@@ -1,80 +1,79 @@
-html{
+html {
     background-color: #212121;
     color: #cfcfcf;
-    font-family:monospace;
+    font-family: monospace;
 }
+#logo {
+    padding-left: 5px;
+}
+
 #menubar {
-    display: flex;
-    height: 50px;
+    height: auto; /* Adjust height automatically */
     background-color: black;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap; /* Enable wrapping */
+    align-items: center; /* Center-align children vertically */
     font-size: xx-large;
     border-radius: 10px;
 }
+
 #menubar a {
     color: #cfcfcf;
     text-decoration: none;
     padding-left: 30px;
+    white-space: nowrap; /* Prevent text wrapping inside links */
 }
 
 #menubar a:hover {
     color: #a8a8a8;
-    text-decoration: none;
-    padding-left: 30px;
 }
 
 #menubar a:active {
     color: #828282;
-    text-decoration: none;
-    padding-left: 30px;
 }
 
 #homenote {
     font-size: 25px;
 }
 
-#abt{
-    width:50%;
+#abt {
+    width: 50%;
     text-align: center;
     font-size: x-large;
     padding-left: 25%;
 }
 
-#logo{
-    padding-left: 5px;
-}
-h1{
+h1 {
     text-align: center;
     font-size: 40px;
 }
-h2{
-    text-align: center;
-}
-p{
-    text-align: center;
-    font-size: x-large;
-}
-a{
-    color:deepskyblue;
-}
-li{
-    text-align: center;
-    font-size: x-large;
-}
-@media screen and (min-width: 480px) and (max-width: 960px) {
-    #header {
-        display: none;
-    }
-}
-@media screen and (max-width: 768px) {
-    #menubar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    /* Last two links go under each other */
-    #license_btn, #authors_btn {
-        margin-top: 10px; /* Add some space between the last two links */
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+}
+
+a {
+    color: deepskyblue;
+}
+
+li {
+    text-align: center;
+    font-size: x-large;
+}
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+    #menubar {
+        flex-wrap: wrap; /* Ensure wrapping happens */
+    }
+    #menubar a:last-child {
+        flex-basis: 100%; /* Make the last link take the full row */
+        text-align: left; /* Align text to the left */
+        padding-left: calc(30px + 5px + 50px); /* Match the x-position of the first link */
+        padding-bottom: 13px;
     }
 }
