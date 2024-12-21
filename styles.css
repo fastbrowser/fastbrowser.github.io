@@ -66,3 +66,14 @@ li{
         display: none;
     }
 }
+@media screen and (max-width: 768px) {
+    #menubar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Last two links go under each other */
+    #license_btn, #authors_btn {
+        margin-top: 10px; /* Add some space between the last two links */
+    }
+}
