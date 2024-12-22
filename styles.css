@@ -66,6 +66,13 @@ li {
     font-size: x-large;
 }
 
+#counter{
+    position: fixed;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    font-size: large; /* Optional, adjust based on your design */
+}
+    
 @media screen and (min-width: 480px) and (max-width: 960px) {
     #menubar {
         flex-wrap: wrap; /* Ensure wrapping happens */
